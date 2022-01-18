@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<methodCall><methodName>system.multicall</methodName><params><param><value><array><data>
+
+<value><struct><member><name>methodName</name><value><string>wp.getUsersBlogs</string></value></member><member><name>params</name><value><array><data><value><array><data><value><string>test</string></value><value><string>test</string></value></data></array></value></data></array></value></member></struct></value>
+
+<value><struct><member><name>methodName</name><value><string>wp.getUsersBlogs</string></value></member><member><name>params</name><value><array><data><value><array><data><value><string>test2</string></value><value><string>test2</string></value></data></array></value></data></array></value></member></struct></value>
+
+<value><struct><member><name>methodName</name><value><string>wp.getUsersBlogs</string></value></member><member><name>params</name><value><array><data><value><array><data><value><string>test3</string></value><value><string>test3</string></value></data></array></value></data></array></value></member></struct></value>
+
+<value><struct><member><name>methodName</name><value><string>wp.getUsersBlogs</string></value></member><member><name>params</name><value><array><data><value><array><data><value><string>test34</string></value><value><string>test34</string></value></data></array></value></data></array></value></member></struct></value>
+
+</data></array></value></param></params></methodCall>
+
+
+<?xml version="1.0" encoding="utf-8"?> 
+<methodCall> 
+<methodName>system.listMethods</methodName> 
+<params></params> 
+</methodCall> 

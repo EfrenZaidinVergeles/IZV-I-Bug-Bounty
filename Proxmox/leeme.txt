@@ -1,0 +1,25 @@
+Usuario root: CENSORED/CENSORED
+
+Usuario cloud9: CENSORED/CENSORED
+
+Usuario mysql: CENSORED/CENSORED
+
+Puerto: 9xxx donde xxx es el numero asignado
+
+Url:
+https://informatica.ieszaidinvergeles.org:9xxx donde xxx es el numero asignado
+
+Url c9:
+https://informatica.ieszaidinvergeles.org:9xxx/cloud9 donde xxx es el numero asignado
+
+Modificar la clave del usuario root: passwd desde la consola de cloud9
+
+Modificar el usuario y/o la clave del usuario c9, en el archivo /etc/init.d/cloud9.sh se ha de modificar la siguiente linea:
+
+/usr/bin/node /var/c9sdk/server.js -w /var/www/html/ --auth CENSORED:CENSORED --port $C9_PORT >/dev/null 2>&1  &
+
+Se debe reemplazar CENSORED:CENSORED por usuario:clave.
+
+Una vez modificada la clave de cloud9, hay que relanzarlo: /etc/init.d/cloud9.sh
+
+Modificar la clave de mysql: ir a PhpMyAdmin, entrar como root, pinchar en Cambio de contrasena, introducir la clave nueva dos veces y pulsar Continuar
